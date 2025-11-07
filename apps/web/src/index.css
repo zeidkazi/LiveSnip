@@ -1,0 +1,100 @@
+@import "@repo/tailwind-config";
+@import "tailwindcss";
+
+/* Light mode */
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
+
+  --primary: #0098ab;
+  --primary-foreground: #ffffff;
+
+  --secondary: #f3f3f3;
+  --secondary-foreground: #222222;
+
+  --card: #f7f7f7;
+  --card-foreground: #222222;
+
+  --tertiary: #e5e5e5;
+
+  --muted: #f1f1f1;
+  --muted-foreground: #0098ab;
+
+  --accent: #0098ab;
+  --accent-foreground: #ffffff;
+
+  --destructive: #fff5f5;
+  --destructive-foreground: #690000;
+
+  --border: #e5e5e5;
+  --input: #f3f3f3;
+  --ring: #0098ab;
+
+  --error: #fff5f5;
+  --error-foreground: #690000;
+}
+
+/* Dark mode overrides */
+.dark {
+  --background: #000000;
+  --foreground: #ffffff;
+
+  --primary: #0098ab;
+  --primary-foreground: #010101;
+
+  --secondary: #131313;
+  --secondary-foreground: #5d5d5d;
+
+  --card: #131313;
+  --card-foreground: #ffffff;
+
+  --tertiary: #5d5d5d;
+
+  --muted: #1e4045;
+  --muted-foreground: #0098ab;
+
+  --accent: #0098ab;
+  --accent-foreground: #ffffff;
+
+  --destructive: #3c0202;
+  --destructive-foreground: #690000;
+
+  --border: #303030;
+  --input: #131313;
+  --ring: #0098ab;
+
+  --error: #3c0202;
+  --error-foreground: #690000;
+}
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+
+  --color-tertiary: var(--tertiary);
+
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-error: var(--error);
+  --color-error-foreground: var(--error-foreground);
+}
